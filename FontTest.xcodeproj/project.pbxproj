@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3926C86208F0BDD000E8476 /* MFTongXin_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3926C83208F0BDC000E8476 /* MFTongXin_Noncommercial-Regular.ttf */; };
+		B3926C87208F0BDD000E8476 /* MFJinHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3926C84208F0BDC000E8476 /* MFJinHei_Noncommercial-Regular.ttf */; };
+		B3926C88208F0BDD000E8476 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3926C85208F0BDD000E8476 /* MFZhiHei_Noncommercial-Regular.ttf */; };
 		B3CE2CBE208995500069EC67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CE2CBD208995500069EC67 /* AppDelegate.swift */; };
 		B3CE2CC0208995500069EC67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CE2CBF208995500069EC67 /* ViewController.swift */; };
 		B3CE2CC3208995500069EC67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CE2CC1208995500069EC67 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		B3CE2CC8208995500069EC67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CE2CC6208995500069EC67 /* LaunchScreen.storyboard */; };
 		B3CE2CD3208995500069EC67 /* FontTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CE2CD2208995500069EC67 /* FontTestTests.swift */; };
 		B3CE2CDE208995500069EC67 /* FontTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CE2CDD208995500069EC67 /* FontTestUITests.swift */; };
+		B3CE2CEC208995840069EC67 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CE2CEB208995840069EC67 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B3926C83208F0BDC000E8476 /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		B3926C84208F0BDC000E8476 /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		B3926C85208F0BDD000E8476 /* MFZhiHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFZhiHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
 		B3CE2CBA208995500069EC67 /* FontTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CE2CBD208995500069EC67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3CE2CBF208995500069EC67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		B3CE2CD9208995500069EC67 /* FontTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CE2CDD208995500069EC67 /* FontTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontTestUITests.swift; sourceTree = "<group>"; };
 		B3CE2CDF208995500069EC67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CE2CEB208995840069EC67 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,12 @@
 		B3CE2CBC208995500069EC67 /* FontTest */ = {
 			isa = PBXGroup;
 			children = (
+				B3926C84208F0BDC000E8476 /* MFJinHei_Noncommercial-Regular.ttf */,
+				B3926C83208F0BDC000E8476 /* MFTongXin_Noncommercial-Regular.ttf */,
+				B3926C85208F0BDD000E8476 /* MFZhiHei_Noncommercial-Regular.ttf */,
 				B3CE2CBD208995500069EC67 /* AppDelegate.swift */,
 				B3CE2CBF208995500069EC67 /* ViewController.swift */,
+				B3CE2CEB208995840069EC67 /* File.swift */,
 				B3CE2CC1208995500069EC67 /* Main.storyboard */,
 				B3CE2CC4208995500069EC67 /* Assets.xcassets */,
 				B3CE2CC6208995500069EC67 /* LaunchScreen.storyboard */,
@@ -233,7 +245,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3CE2CC8208995500069EC67 /* LaunchScreen.storyboard in Resources */,
+				B3926C88208F0BDD000E8476 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
 				B3CE2CC5208995500069EC67 /* Assets.xcassets in Resources */,
+				B3926C87208F0BDD000E8476 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
+				B3926C86208F0BDD000E8476 /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
 				B3CE2CC3208995500069EC67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3CE2CC0208995500069EC67 /* ViewController.swift in Sources */,
+				B3CE2CEC208995840069EC67 /* File.swift in Sources */,
 				B3CE2CBE208995500069EC67 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 242ERQRJ9E;
 				INFOPLIST_FILE = FontTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yize.FontTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 242ERQRJ9E;
 				INFOPLIST_FILE = FontTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yize.FontTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
